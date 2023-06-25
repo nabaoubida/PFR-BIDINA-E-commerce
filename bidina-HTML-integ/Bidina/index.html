@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./boostrtap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- animation -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- <link rel="shortcut icon" type="x-icon" href="image/logo.png"> -->
+    <link rel="stylesheet" href="style.css">
+    <title>Bidina</title>
+</head>
+
+<body>
+    <header>
+        <div class="into d-lg-flex justify-content-between align-items-center p-2 px-5 d-none">
+            <div class="intro-para">
+                <p class="m-0 fst-italic">Welcome to the best site for selling handicraft products</p>
+            </div>
+            <div class="select">
+                <select class="form-select selectA" aria-label="Default select example">
+                    <option value="1">English</option>
+                    <option value="2">Français</option>
+                    <option value="3">Arabic</option>
+                </select>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="row row-cols-lg-2 justify-content-around align-items-center m-0 w-100">
+                <div class="col">
+                    <a class="img " href="./index.html">
+                        <img class=" image py-3" src="./image-2/logo11.png" alt="logo bidina"></a>
+                </div>
+                <div class="col item-A">
+                    <div class="icon d-flex align-items-center py-3 justify-content-around">
+                        <button class="d-lg-none d-md-block d-block btn border-0 " type="button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i
+                                class="fas fa-search px-2 iconat"></i></button>
+                        <div class="offcanvas offcanvas-top " tabindex="-1" id="offcanvasTop"
+                            aria-labelledby="offcanvasTopLabel">
+                            <div class="offcanvas-header justify-content-end">
+                                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <div class="input-group">
+                                    <input class="form-control border-end-0 border rounded-pill" type="text"
+                                        placeholder="search" id="search">
+                                    <span class="input-group-append">
+                                        <button class="btn border-0 " type="button" id="btn">
+                                            <i class="fas fa-search px-2 iconat"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="fs-6 user_button nav-item btn border-0"><i class="far fa-user px-2 iconat"></i>
+                            <div class="bg-user-down navbar-a p-3 ">
+                                <ul class=" user_down  list-unstyled">
+                                    <li><a class="dropdown-item px-2 py-2 user-item" href="./signin.html">Sign In</a>
+                                    </li>
+                                    <li><a class="dropdown-item px-2 py-2 user-item" href="./signup.html">Sign Up</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+
+                        <button class="btn border-0 position-relative" type="button">
+                            <i class="fas fa-shopping-cart iconat"></i>
+                            <span class="position-absolute top-0 translate-middle badge rounded-pill">1</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col d-lg-none d-block">
+                    <button class="btn float-end" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                </div>
+                <div class="offcanvas offcanvas-start w-75" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <img class="w-25 image py-3" src="./image/logo.png" alt="logo bidina">
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="col p-lg-0 w-100">
+                            <ul
+                                class="items p-3 d-flex align-lg-items-center justify-content-start justify-content-lg-center flex-column flex-lg-row list-unstyled ">
+                                <li class="item"><a href="#"
+                                        class="nav-item nav-link navbar-a  list-inline text-light">Home</a></li>
+                                <li class="item"><a href="#" class="nav-item nav-link navbar-a  text-light">About Us</a>
+                                </li>
+                                <li class="item nav-item dropdown ">
+                                    <div class="fs-6 shop_button nav-item">Shop <i class="fas fa-angle-down ps-2 fs-5"
+                                            style="top: 10px;"></i>
+                                        <div class="bg-shop-down navbar-a p-3 ">
+                                            <ul class=" shop_down  list-unstyled">
+                                                <li><a class="dropdown-item px-2 py-2 shop-item" href="#">Shop 3
+                                                        Column</a></li>
+                                                <li><a class="dropdown-item px-2 py-2 shop-item" href="#">Shop 4
+                                                        Column</a></li>
+                                                <li><a class="dropdown-item px-2 py-2 shop-item" href="#">Shop Left
+                                                        Sidebar</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="item"><a href="#" class="nav-item nav-link navbar-a  text-light">Blogs</a>
+                                </li>
+                                <li> <a href="#" class="nav-item nav-link navbar-a  text-light">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="carouselExampleIndicators" class="carousel slide d-flex align-items-center" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container align-self-center">
+                        <div class="row py-5">
+                            <div class="col-lg-7 col-md-7 col-sm-7 align-self-center">
+                                <div class="hero-slide-content slider-animated-1 animate__animated animate__backInDown">
+                                    <span class="fw-bold category">New Products</span>
+                                    <h2 class="title-1">Flexible Chair </h2>
+                                    <p class="w-75">Torem ipsum dolor sit amet, consectetur adipisicing elitsed do
+                                        eiusmo tempor
+                                        incididunt ut
+                                        labore
+                                        et dolore magna</p>
+                                    <a href="#" class="btn btn-lg mt-5">Shop Now</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-5 animate__animated animate__backInUp">
+                                <div class="hero-slide-image">
+                                    <img class="w-100" src="image-2/slider-2.png" alt="bidina">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container align-self-center">
+                        <div class="row py-5">
+
+                            <div
+                                class="col-lg-7 col-md-7 col-sm-7 align-self-center animate__animated animate__backInDown">
+                                <div class="hero-slide-content slider-animated-1">
+                                    <span class="fw-bold category">New Products</span>
+                                    <h2 class="title-1">Flexible Chair </h2>
+                                    <p class="w-75">Torem ipsum dolor sit amet, consectetur adipisicing elitsed do
+                                        eiusmo tempor
+                                        incididunt ut
+                                        labore
+                                        et dolore magna</p>
+                                    <a href="#" class="btn btn-lg mt-5">Shop Now</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-md-5 col-sm-5 animate__animated animate__backInUp">
+                                <div class="hero-slide-image">
+                                    <img class="w-100" src="image-2/slider-1.png" alt="bidina">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev d-none d-lg-block" type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next d-none d-lg-block" type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="categ d-flex container justify-content-around flex-wrap">
+            <div class="cat-item ">
+                <div class="item-1">
+                    <img src="./image-2/1.png" alt="">
+                    <h6 class="py-3">Office Chair</h6>
+                </div>
+            </div>
+            <div class="cat-item">
+                <div class="item-1">
+                    <img src="./image-2/2.png" alt="">
+                    <h6 class="py-3">Book Shelf</h6>
+                </div>
+            </div>
+            <div class="cat-item">
+                <div class="item-1">
+                    <img src="./image-2/4.png" alt="">
+                    <h6 class="py-3">Reading Table</h6>
+                </div>
+
+            </div>
+            <div class="cat-item">
+                <div class="item-1">
+                    <img src="./image-2/5.png" alt="">
+                    <h6 class="py-3">Corner Table</h6>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner categ d-flex container justify-content-around">
+                <div class="carousel-item active cat-item">
+                    <div class="item-1">
+                        <img src="./image-2/1.png" alt="">
+                        <h6 class="py-3">Office Chair</h6>
+                    </div>
+                </div>
+                <div class="carousel-item cat-item">
+                    <div class="item-1">
+                        <img src="./image-2/2.png" alt="">
+                        <h6 class="py-3">Book Shelf</h6>
+                    </div>
+                </div>
+                <div class="carousel-item cat-item">
+                    <div class="item-1">
+                        <img src="./image-2/4.png" alt="">
+                        <h6 class="py-3">Reading Table</h6>
+                    </div>
+                </div>
+                <div class="carousel-item cat-item">
+                    <div class="item-1">
+                        <img src="./image-2/5.png" alt="">
+                        <h6 class="py-3">Corner Table</h6>
+                    </div>
+                </div>
+                <div class="carousel-item cat-item">
+                    <div class="item-1">
+                        <img src="./image-2/5.png" alt="">
+                        <h6 class="py-3">Corner Table</h6>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+        <div class="mool">
+            <div class="mool-1 text-center">
+                <div class="sc-jlIlqL fFFrZj">
+                    <h2 class="titre-2">Our Products</h2>
+                    <p class="para-2">Lorem ipsum dolor sit amet, consectetur adipisicing elitsed do eiusmo tempor
+                        incididunt ut labore</p>
+                </div>
+            </div>
+            <div class="prud">
+                <ul class="list-group list-group-flush flex-row justify-content-center py-4 list-unstyled">
+                    <li class=""><a class="text-decoration-none px-1 px-lg-4 px-3 text-dark " aria-current="true"
+                            href="#">New Arrival</a></li>
+                    <li class=""><a class="text-decoration-none px-1 px-lg-4 px-3 text-dark" href="#">Featured</a></li>
+                    <li class=""><a class="text-decoration-none px-1 px-lg-4 px-3 text-dark" href="#">On Sale</a></li>
+                    <li class=""><a class="text-decoration-none px-1 px-lg-4 px-3 text-dark" href="#">Tending</a></li>
+                </ul>
+            </div>
+
+            <div class="row container-fluid">
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#" class="image">
+                                <!-- <span class="badge bg-success">Success</span> -->
+                                <img class="img-1" src="./image/tables/75.jpg" alt="produit">
+                                <div class="kiaa position-absolute">
+                                    <span class="position-relative">-42%</span>
+                                    <span class="position-relative new">New</span>
+                                </div>
+                            </a>
+                            <ul class="product-links">
+                                <!-- <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li> -->
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                <button class="btn btn-secondary batn d-none d-lg-block d-md-none"><a href="#"><i
+                                            class="fas fa-shopping-cart"></i>
+                                        Add to Card</a></button>
+                            </ul>
+                        </div>
+                        <div class="product-content">
+                            <h2 class="title"><a class="fw-bolder text-decoration-none" href="#">Women's T-Shirt</a>
+                            </h2>
+                            <div class="price">$77.99</div>
+                            <button class="btn btn-secondary booton  d-block d-lg-none d-md-block"><a href="#"><i
+                                        class="fas fa-shopping-cart"></i>
+                                    Add to Card</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#" class="image">
+                                <img class="img-1" src="./image/tables/75.jpg" alt="produit">
+                                <div class="kiaa position-absolute d-none">
+                                    <span class="position-relative ">-42%</span>
+                                    <span class="position-relative d-block new">New</span>
+                                </div>
+                            </a>
+                            <ul class="product-links">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                <button type="button" class="btn btn-secondary batn d-none d-lg-block d-md-none"><a
+                                        href="#"><i class="fas fa-shopping-cart"></i>Add to Card</a></button>
+                            </ul>
+                        </div>
+                        <div class="product-content">
+                            <h2 class="title"><a class="fw-bolder text-decoration-none" href="#">Women's Top</a></h2>
+                            <div class="price">$61.99 <span>$79.11</span></div>
+                            <button class="btn btn-secondary booton  d-block d-lg-none d-md-block"><a href="#"><i
+                                        class="fas fa-shopping-cart"></i>
+                                    Add to Card</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#" class="image">
+                                <img class="img-1" src="./image/tables/75.jpg" alt="produit">
+                            </a>
+                            <ul class="product-links">
+                                <!-- <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li> -->
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                <button type="button" class="btn btn-secondary batn d-none d-lg-block d-md-none"><a
+                                        href="#"><i class="fas fa-shopping-cart"></i>Add to Card</a></button>
+                            </ul>
+                        </div>
+                        <div class="product-content">
+                            <h2 class="title"><a class="fw-bolder text-decoration-none" href="#">Women's Top</a></h2>
+                            <div class="price">$61.99 <span>$79.11</span></div>
+                            <button class="btn btn-secondary booton  d-block d-lg-none d-md-block"><a href="#"><i
+                                        class="fas fa-shopping-cart"></i>
+                                    Add to Card</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#" class="image">
+                                <img class="img-1" src="./image/tables/75.jpg" alt="produit">
+                                <div class="kiaa position-absolute">
+                                    <span class="position-relative">-50%</span>
+                                </div>
+                            </a>
+                            <ul class="product-links">
+                                <!-- <li><a href="#"></a></li> -->
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                <button type="button" class="btn btn-secondary batn d-none d-lg-block d-md-none"><a
+                                        href="#"><i class="fas fa-shopping-cart"></i>Add to Card</a></button>
+                            </ul>
+                        </div>
+                        <div class="product-content">
+                            <h2 class="title"><a class="fw-bolder text-decoration-none" href="#">Women's Top</a></h2>
+                            <div class="price">$61.99 <span>$79.11</span></div>
+                            <button class="btn btn-secondary booton  d-block d-lg-none d-md-block"><a href="#"><i
+                                        class="fas fa-shopping-cart"></i>
+                                    Add to Card</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#" class="image">
+                                <img class="img-1" src="./image/tables/75.jpg" alt="produit">
+                                <div class="kiaa position-absolute">
+                                    <span class="position-relative ">-10%</span>
+                                </div>
+                            </a>
+                            <ul class="product-links">
+                                <!-- <li><a href="#"></a></li> -->
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                <button type="button" class="btn btn-secondary batn d-none d-lg-block d-md-none"><a
+                                        href="#"><i class="fas fa-shopping-cart"></i>Add to Card</a></button>
+                            </ul>
+                        </div>
+                        <div class="product-content">
+                            <h2 class="title"><a class="fw-bolder text-decoration-none" href="#">Women's Top</a></h2>
+                            <div class="price">$61.99 <span>$79.11</span></div>
+                            <button class="btn btn-secondary booton  d-block d-lg-none d-md-block"><a href="#"><i
+                                        class="fas fa-shopping-cart"></i>
+                                    Add to Card</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#" class="image">
+                                <img class="img-1" src="./image/tables/75.jpg" alt="produit">
+                            </a>
+                            <ul class="product-links">
+                                <!-- <li><a href="#"></a></li> -->
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                <button type="button" class="btn btn-secondary batn d-none d-lg-block d-md-none"><a
+                                        href="#"><i class="fas fa-shopping-cart"></i>Add to Card</a></button>
+                            </ul>
+                        </div>
+                        <div class="product-content">
+                            <h2 class="title"><a class="fw-bolder text-decoration-none" href="#">Women's Top</a></h2>
+                            <div class="price">$61.99 <span>$79.11</span></div>
+                            <button class="btn btn-secondary booton  d-block d-lg-none d-md-block"><a href="#"><i
+                                        class="fas fa-shopping-cart"></i>
+                                    Add to Card</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#" class="image">
+                                <img class="img-1" src="./image/tables/75.jpg" alt="produit">
+                            </a>
+                            <ul class="product-links">
+                                <!-- <li><a href="#"></a></li> -->
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                <button type="button" class="btn btn-secondary batn d-none d-lg-block d-md-none"><a
+                                        href="#"><i class="fas fa-shopping-cart"></i> Add to Card</a></button>
+                            </ul>
+                        </div>
+                        <div class="product-content">
+                            <h2 class="title"><a class="fw-bolder text-decoration-none" href="#">Women's Top</a></h2>
+                            <div class="price">$61.99 <span>$79.11</span></div>
+                            <button class="btn btn-secondary booton  d-block d-lg-none d-md-block"><a href="#"><i
+                                        class="fas fa-shopping-cart"></i>
+                                    Add to Card</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="product-grid">
+                        <div class="product-image">
+                            <a href="#" class="image">
+                                <img class="img-1" src="./image/tables/75.jpg" alt="produit">
+
+                            </a>
+                            <ul class="product-links">
+                                <!-- <li><a href="#"></a></li> -->
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-eye"></i></a></li>
+                                <button type="button" class="btn btn-secondary batn d-none d-lg-block d-md-none"><a
+                                        href="#"><i class="fas fa-shopping-cart"></i> Add to Card</a></button>
+                            </ul>
+                        </div>
+                        <div class="product-content">
+                            <h2 class="title"><a class="fw-bolder text-decoration-none" href="#">Women's Top</a></h2>
+                            <div class="price">$61.99 <span>$79.11</span></div>
+                            <button class="btn btn-secondary booton  d-block d-lg-none d-md-block"><a href="#"><i
+                                        class="fas fa-shopping-cart"></i>
+                                    Add to Card</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container">
+                <div class="raw d-flex flex-column flex-lg-row flex-md-column">
+                    <div class="azza">
+                        <a href="#">
+                            <img class="phata w-100" src="./image-2/Capture.PNG" alt="pub">
+                        </a>
+                    </div>
+                    <div class="azza">
+                        <a href="#">
+                            <img class="phata w-100" src="./image-2/Capture1.PNG" alt="pub">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </main>
+
+
+    <footer>
+        <div class="row container-fluid mt-4 mx-auto fatal p-5">
+            <div class="col-12 col-md-12 col-lg-3 mb-4">
+                <h5 class="">ABOUT US</h5>
+                <p class="about-text">Lorem ipsum dolor sit amet cons adipisicing elit sed do eiusm tempor
+                    incididunt ut labor et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                <ul class="list-group list-group-light d-flex flex-row ">
+                    <li class="list-group-item border-0 bg-transparent"><a class="text-decoration-none tarif"
+                            href="#"><i class="fab fa-facebook"></i></a></li>
+                    <li class="list-group-item border-0 bg-transparent"><a class="text-decoration-none tarif"
+                            href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li class="list-group-item border-0 bg-transparent"><a class="text-decoration-none tarif"
+                            href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="list-group-item border-0 bg-transparent"><a class="text-decoration-none tarif"
+                            href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li class="list-group-item border-0 bg-transparent"><a class="text-decoration-none tarif"
+                            href="#"><i class="fab fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <h5 class="">INFORMATION</h5>
+                <ul class="list-group list-group-light d-flex flex-column ">
+                    <li class="list-group-item border-0 bg-transparent"><a class="text-decoration-none tarif"
+                            href="#">About Us</a></li>
+                    <li class="list-group-item border-0 bg-transparent"><a class="text-decoration-none tarif"
+                            href="#">Manufactures</a></li>
+                    <li class="list-group-item border-0 bg-transparent"><a class="text-decoration-none tarif"
+                            href="#">Tracking Order</a></li>
+                    <li class="list-group-item border-0 bg-transparent"><a class="text-decoration-none tarif"
+                            href="#">Privacy & Policy</a></li>
+                    <li class="list-group-item border-0 bg-transparent"><a class="text-decoration-none tarif"
+                            href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-4">
+                <h5 class="">MY ACCOUNT</h5>
+                <ul class="list-group list-group-light d-flex flex-column">
+                    <li class="list-group-item border-0 bg-transparent"><a class="text-decoration-none tarif"
+                            href="#">Login</a></li>
+                    <li class="list-group-item border-0 bg-transparent"><a class="text-decoration-none tarif"
+                            href="#">My Cart</a></li>
+                    <li class="list-group-item border-0 bg-transparent"><a class="text-decoration-none tarif"
+                            href="#">Compare</a></li>
+                    <li class="list-group-item border-0 bg-transparent"><a class="text-decoration-none tarif"
+                            href="#">My Account</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5 class="pb-2">NEWSLETTER</h5>
+                <input class="tanput bg-transparent p-2 w-100 mb-4" type="email" name="email" id="email"
+                    placeholder="Enter E-mail Adheres">
+                <button class="batin p-3 border-0 text-light"><i class="fas fa-paper-plane"></i> Subscribe</button>
+            </div>
+        </div>
+        <div class="contaner-fluid text-white footr d-flex justify-content-around flex-column-reverse flex-lg-row p-2">
+            <div class="">
+                <p>&#169; 2022, Bidina. Made With <i class="fas fa-heart texta"></i> by <span class="cas">Boubker</span>
+                </p>
+            </div>
+            <div class="phato mb-3">
+                <img src="./image-2/75.png" alt="card">
+            </div>
+        </div>
+    </footer>
+
+
+
+   
+
+
+
+
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>
